@@ -50,6 +50,7 @@ func closureExample01() {
 	fmt.Println(increment())
 	fmt.Println(increment())
 }
+
 func closureExample02() {
 	makeEvenGenerator := func() uint {
 
@@ -63,6 +64,7 @@ func main() {
 }
 
 func test() {
+
 	_, exists := power("cenadas")
 
 	if exists {

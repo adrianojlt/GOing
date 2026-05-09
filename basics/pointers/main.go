@@ -5,6 +5,7 @@ import (
 )
 
 func addresses() {
+
 	var i int
 
 	fmt.Println("value of i is: ", i)
